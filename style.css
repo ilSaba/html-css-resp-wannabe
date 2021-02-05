@@ -78,7 +78,25 @@ img {
 
 
 @media screen and (max-width: 420px){
-  
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: left;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 100%;
+  }
+}
+
+/* CSS MEDIA QUERY MIN 768PX (tablet); */
+
+@media screen and (max-width: 768px){
+
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
